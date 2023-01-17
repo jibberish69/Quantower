@@ -390,33 +390,3 @@ protected override void OnStop()
         }
     }
 }
-
-
-
-namespace OrderPlacingStrategy1_VWAP_StDeviation
-{
-    /// <summary>
-    /// Information about API you can find here: http://api.quantower.com
-    /// Code samples: https://github.com/Quantower/Examples 
-    /// </summary>
-    public class OrderPlacingStrategy1_VWAP_StDeviation : OrderPlacingStrategy
-    {
-        public OrderPlacingStrategy1_VWAP_StDeviation()
-            : base()
-        {
-            // Defines strategy's name and description.
-            this.Name = "OrderPlacingStrategy1_VWAP_StDeviation";
-            this.Description = "My OrderPlacingStrategy's annotation";
-        }
-
-        protected override void OnPlaceOrder(PlaceOrderRequestParameters placeOrderRequest)
-        {
-            throw new NotImplementedException();
-        }
-
-        protected override void OnCancel()
-        {
-            throw new NotImplementedException();
-        }
-    }
-}
