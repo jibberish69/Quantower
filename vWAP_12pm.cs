@@ -1,4 +1,5 @@
-﻿// MagicKingdom
+﻿// MagicKingdom - trading strategy for fading vWAP deviations and returns to vWAP. 
+// Added in code for trailing stops, buying and selling within 1%, and trying to add in tick counting
 
 using System;
 using System.Collections.Generic;
